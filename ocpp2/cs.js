@@ -76,7 +76,7 @@ module.exports = function (RED) {
       ? WSRTRPT_DEF
       : Number.parseInt(config.ws_rt_repeat);
     this.ws_rt_rnd_range = isNaN(Number.parseInt(config.ws_rt_rnd_range))
-      ? WSRTRNG_DEF
+      ? WSRTRND_DEF
       : Number.parseInt(config.ws_rt_rnd_range);
 
     this.NetStatus = NetStatus;
